@@ -1,0 +1,12 @@
+/* Estilo para el hover de las tarjetas */
+.card:hover {
+  background-color: #d7dbdd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
